@@ -16,7 +16,7 @@ All algorithms load the graph in compressed form in main memory. Because of the 
 
 Compiling
 --
-The programs are already compiled with javac 1.8 (Java 8). If your java is older, you can compile as follows:
+Compile as follows:
 
 __javac -cp "lib/\*" -d bin src/*__
 
