@@ -18,7 +18,7 @@ Compiling
 --
 Compile as follows:
 
-__javac -cp "lib/\*" -d bin src/*__
+__javac -cp "lib/\*" -d bin ./*__
 
 
 Input
