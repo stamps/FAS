@@ -1,7 +1,7 @@
 Computing Feedback Arc Sets for Very Large Graphs
 ===
 
-This repository contains efficient implementations for computing the feedback arc sets on large graphs. The details of the implementations and their optimizations are described in the following paper: 
+This repository contains efficient implementations for computing feedback arc sets on large graphs. The details of the implementations and their optimizations are described in the following paper: 
 
 *Michael Simpson, Venkatesh Srinivasan, Alex Thomo:
 Efficient Computation of Feedback Arc Set at Web-Scale. PVLDB 10(3): 133-144 (2016)*
