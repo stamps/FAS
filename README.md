@@ -101,4 +101,4 @@ The result will be output to the console.
 Contact
 --
 
-For any question, send email to simpsonm@uvic.ca
+For any questions, send email to simpsonm@uvic.ca
