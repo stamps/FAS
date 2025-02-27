@@ -18,7 +18,7 @@ Compiling
 --
 Compile as follows:
 
-__javac -cp "lib/\*" -d bin ./*__
+`javac -cp "lib/\*" -d bin ./*`
 
 
 Input
@@ -54,7 +54,7 @@ The first two files are for the forward (regular) *cnr-2000* graph. The other tw
 
 What's missing is the "offsets" file. This can be easily created by running:
 
-__java -cp "lib/*" it.unimi.dsi.webgraph.BVGraph -o -O -L cnr-2000__
+`java -cp "lib/*" it.unimi.dsi.webgraph.BVGraph -o -O -L cnr-2000`
 
 
 Edgelist format
@@ -72,33 +72,27 @@ Now, to convert the edgelist file to WebGraph format execute the following steps
 
 Sort the file, then remove any duplicate edges:
 
-**sort -nk 1 edgelistfile | uniq > edgelistsortedfile**
+`sort -nk 1 edgelistfile | uniq > edgelistsortedfile`
 
 (If you are on Windows, download *sort.exe* and *uniq.exe* from http://gnuwin32.sourceforge.net/packages/coreutils.htm)
 
 Run: 
 
-__java -cp "lib/*" it.unimi.dsi.webgraph.BVGraph -1 -g ArcListASCIIGraph dummy basename &lt; edgelistsortedfile__
+`java -cp "lib/*" it.unimi.dsi.webgraph.BVGraph -1 -g ArcListASCIIGraph dummy basename &lt; edgelistsortedfile`
 
 (This will create *basename.graph, basename.offsets, basename.properties*.
 The basename can be e.g. __simplegraph__)
 
-
-
 Running
 --
 
-__java -cp "bin:lib/*" algorithm_name basename__
+`java -cp "bin:lib/*" algorithm_name basename`
 
 e.g. <br> java -cp "bin:lib/*" ArrayFAS simplegraph
 
-(Change : to ; if you are on Windows)
-
 The result will be output to the console.
-
-
 
 Contact
 --
 
-For any questions, send email to simpsonm@uvic.ca
+For any questions, send email to michaelesimp@gmail.com
