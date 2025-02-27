@@ -88,7 +88,7 @@ Running
 
 `java -cp "bin:lib/*" algorithm_name basename`
 
-e.g. <br> java -cp "bin:lib/*" ArrayFAS simplegraph
+e.g. `java -cp "bin:lib/*" ArrayFAS simplegraph`
 
 The result will be output to the console.
 
